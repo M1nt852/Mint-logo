@@ -5,14 +5,23 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Mint Logo</title>
     <style>
-      html,body{height:100%;margin:0} .wrap{display:grid;place-items:center;height:100%}
-      img,svg{max-width:90vw;max-height:90vh}
+      html, body {
+        height: 100%;
+        margin: 0;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #ffffff; /* you can change the background color */
+      }
+      img {
+        max-width: 90vw;   /* don’t exceed 90% of screen width */
+        max-height: 90vh;  /* don’t exceed 90% of screen height */
+      }
     </style>
   </head>
   <body>
-    <div class="wrap">
-      <!-- If your SVG is named Mint.svg, change the filename below -->
-      <img src="https://raw.githubusercontent.com/M1nt852/Mint-logo/refs/heads/main/Logo.svg" alt="Mint logo">
-    </div>
+    <img src="https://raw.githubusercontent.com/M1nt852/Mint-logo/refs/heads/main/Logo.svg" alt="Mint logo">
   </body>
 </html>
